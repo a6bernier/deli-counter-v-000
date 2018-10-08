@@ -1,7 +1,8 @@
 # Write your code here.
 
 def line(katz_deli)
-  if katz_deli.length > 0 do |names|
+  if katz_deli.length > 0
+    katz_deli.each do |names|
     i = 0
     i += 1
     names_plus << i + ". " names
