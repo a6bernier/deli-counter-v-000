@@ -6,7 +6,7 @@ def line(katz_deli)
     if katz_deli.length > 0
       katz_deli.each do |names|
         i += 1
-        names_plus << "i+1 + ". " + #{names}"
+        names_plus << "i+1 + ". "  #{names}"
           puts "The line is currently: #{names_plus}"
         end
       end
