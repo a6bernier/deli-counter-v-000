@@ -14,7 +14,8 @@ end
 
 
 def take_a_number(katz_deli, name)
-  puts "Welcome, #{name}. You are number 1 in line."
+  katz_deli.each_with_index do |name, index|
+    puts "Welcome, #{name}. You are number #{index + 1} in line."
 end
 
 def now_serving
