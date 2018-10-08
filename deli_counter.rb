@@ -1,6 +1,7 @@
 # Write your code here.
 
 def line(katz_deli)
+  names = katz_deli.join(", ")
   if katz_deli.length > 0
     puts "The line is currently: #{katz_deli}"
   else
