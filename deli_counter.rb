@@ -4,8 +4,8 @@ def line(katz_deli)
   if katz_deli.length > 0 do |names|
     i = 0
     i += 1
-
-    puts "The line is currently: #{names}"
+    names_plus << i + ". " names
+    puts "The line is currently: #{names_plus}"
   else
     puts "The line is currently empty."
   end
