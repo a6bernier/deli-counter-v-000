@@ -6,9 +6,9 @@ def line(katz_deli)
     i += 1
     names_plus << i + ". " names
       puts "The line is currently: #{names_plus}"
+    end
   else
     puts "The line is currently empty."
-  end
   end
 
 
