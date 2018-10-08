@@ -1,8 +1,10 @@
 # Write your code here.
 
 def line(katz_deli)
-  names = katz_deli.join(", ")
-  if katz_deli.length > 0
+  if katz_deli.length > 0 do |names|
+    i = 0
+    i += 1
+
     puts "The line is currently: #{names}"
   else
     puts "The line is currently empty."
