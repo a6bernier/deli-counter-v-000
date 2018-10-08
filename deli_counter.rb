@@ -8,6 +8,7 @@ def line(katz_deli)
     katz_deli.each do |name, index|
       line << "#{index + 1}. #{name}"
     end
+    puts line
   end
 end
 
